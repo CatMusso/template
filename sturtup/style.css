@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    width: 100%;
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper-main {
+    display: flex;
+}
+.section-hr {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.section-head {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.section-description {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.siervices-wrapper{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+
+.service img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+
+.service h3 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.service p {
+    text-align: center;
+}
+
+.services {
+    margin-top: 2em;
+}
+
+
+
+
+.wrapper-header {
+    background-image: url(images/head_background.png);
+    background-size: cover;
+    height: 670px;
+    width: 100%;
+}
+
+.main-header {
+    height: 70px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+.logo {
+    float: left;
+  
+    
+}
+
+nav {
+    max-width: 80%;
+    float: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    padding: 0.5em;
+}
+
+h1 {
+    color: white;
+    padding-top: 215px;
+    text-align: center;
+    font-size: 335%;
+}
+
+.header-text {
+    color: white;
+    font-size: 160%;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.wrapper-header button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    margin-top: 3em;
+    background: none;
+    color: white;
+    border: 1.5px solid white;
+}
