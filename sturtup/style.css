@@ -3,64 +3,21 @@
     padding: 0;
 }
 
-
-main {
-    width: 100%;
+body {
+    height: 3000px;
+    /*УБРАТЬ ПОТОМ*/
 }
 
-
 .wrapper {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+
 }
 
 .wrapper-main {
     display: flex;
+    flex-direction: column;
 }
-.section-hr {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 1em;
-}
-
-.section-head {
-    text-align: center;
-    padding-bottom: 1em;
-}
-
-.section-description {
-    text-align: center;
-    padding-bottom: 2em;
-}
-
-.siervices-wrapper{
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 2em;
-}
-
-.service img{
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 1em;
-}
-
-
-.service h3 {
-    text-align: center;
-    padding-bottom: 1em;
-}
-
-.service p {
-    text-align: center;
-}
-
-.services {
-    margin-top: 2em;
-}
-
-
-
 
 .wrapper-header {
     background-image: url(images/head_background.png);
@@ -78,8 +35,6 @@ main {
 
 .logo {
     float: left;
-  
-    
 }
 
 nav {
@@ -96,7 +51,7 @@ a {
 
 h1 {
     color: white;
-    padding-top: 215px;
+    padding-top: 170px;
     text-align: center;
     font-size: 335%;
 }
@@ -116,4 +71,98 @@ h1 {
     background: none;
     color: white;
     border: 1.5px solid white;
+}
+
+main {
+    width: 100%;
+}
+
+.services {
+    padding-bottom: 100px;
+}
+
+.section-hr {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.section-head {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.section-description {
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+.siervices-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+
+.service img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+.service h3 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.service p {
+    text-align: center;
+}
+
+.services {
+    margin-top: 2em;
+}
+
+.about-us {
+    width: 100%;
+    padding-bottom: 10em;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    padding-bottom: 4em;
+}
+
+.text-1 {
+    padding-right: 2em;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.author {
+    width: 200px;
+    height: 200px;
+}
+
+.author img {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1em;
+}
+
+.r-arrow {
+
+}
+
+.author-text-1 {
+    text-align: center;
+    color: #999999;
+}
+
+.author-text-2 {
+    text-align: center;
+    color: #b4b4b4;
 }
