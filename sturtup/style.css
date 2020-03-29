@@ -293,6 +293,7 @@ main {
     background-size: cover;
     width: 100% !important;
     height: 300px;
+    margin-bottom: 60px;
 }
 
 .banner .header-text {
@@ -312,4 +313,215 @@ main {
     color: white;
     border: 1.5px solid white;
     cursor: pointer;
+}
+
+.resent-blog-posts {
+    margin-bottom: 100px;
+}
+
+.posts {
+    margin-bottom: 150px;
+}
+
+.post {
+    height: 300px;
+}
+
+.posts, .post {
+    width: 100%;
+}
+
+.post-img {
+    background-image: url(images/img_10.png);
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+
+.post-text {
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+
+.post-header {
+    width: 100%;
+    display: flex;
+    height: 20%;
+}
+
+.post-date {
+    width: 10%;
+    border: 1px solid black;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post-date span {
+    width: 100%;
+    text-align: center;
+}
+
+.month {
+    margin-top: -20%;
+}
+
+.post-head {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post h4 {
+    color: red;
+    font-weight: bold;
+}
+
+.post-content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.post-content span {
+    margin-left: 2em;
+}
+
+.post-content a {
+    color: red;
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 2em;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    color: #f4f4f4;
+}
+
+.clients {
+    background-image: url(images/clients-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.block-footer-text-1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.block-footer-text-2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons button{
+    background-color: grey;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+}
+
+.buttons button:hover {
+    background-color: red;
+}
+
+.get-in-touch {
+    margin-bottom: 30px;
+}
+
+/*ФОРМА ОБРАТНОЙ СВЯЗИ*/
+
+.feedback {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px 45px 45px 45px 45px;
+    grid-gap: 2em;
+}
+
+.feedback-left {
+    height: 100%;
+    grid-row: 1/6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedback-icon {
+    float: left;
+    padding-bottom: auto;
+    grid-column: 1/1;
+    grid-row: 1/3;
+}
+
+.feedback-element {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+}
+
+.input-name {
+    grid-column: 2/4;
+}
+
+.input-e-mail {
+    grid-column: 4/6;
+}
+
+.input-your-subject {
+    grid-column: 2/4;
+}
+
+.input-company-name {
+    grid-column: 4/6;
+}
+
+.input-message {
+    grid-column: 2/6;
+    grid-row: 3/5;
+}
+
+.hint {
+    grid-column: 3/6;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #c0301c;
+}
+
+.section-head button {
+    background-color: #c0301c;
+    border: none;
+    margin-top: 50px;
+}
+
+.section-head img {
+    width: 25px;
+    height: 25px;
 }
