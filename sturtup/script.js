@@ -5,10 +5,11 @@
 const author = document.querySelectorAll(".author");
 
 
+//При загрузке всего
 window.onload = () => {
     author.forEach(card => {
+        
         card.onmouseover = function(){
-            //console.log(card.children[0].lastChild.previousSibling);
             card.children[0].firstChild.nextSibling.style.opacity = 1;
             card.children[0].lastChild.previousSibling.style.opacity = 1;
             
@@ -22,3 +23,4 @@ window.onload = () => {
 
     });
 }
+    

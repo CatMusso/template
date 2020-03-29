@@ -218,6 +218,7 @@ main {
     top: 80%;
     padding: 0 30%;
     justify-content: space-between;
+    opacity: 0;
 }
 
 @media screen and (max-width: 900px) {
