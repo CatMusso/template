@@ -2,14 +2,25 @@
 //background-img  - маска
 //soc-block - социальные сети
 
-let author = document.querySelector(".author");
-let mask = document.querySelector(".background-img");
-let social = document.querySelector(".soc-block");
+const author = document.querySelectorAll(".author");
 
-window.onload = function(){
-    //console.log("Страница загружена");
-    author.onmouseover = function(){
-        console.log("Наведение");
-        mask.style.opacity = 0;
-    }
+
+//При загрузке всего
+window.onload = () => {
+    author.forEach(card => {
+        
+        card.onmouseover = function(){
+            card.children[0].firstChild.nextSibling.style.opacity = 1;
+            card.children[0].lastChild.previousSibling.style.opacity = 1;
+            
+        }
+
+        card.onmouseout = function(){
+            card.children[0].firstChild.nextSibling.style.opacity = 0;
+            card.children[0].lastChild.previousSibling.style.opacity = 0;
+        }
+
+
+    });
 }
+    
