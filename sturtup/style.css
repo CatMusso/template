@@ -71,6 +71,7 @@ h1 {
     background: none;
     color: white;
     border: 1.5px solid white;
+    cursor: pointer;
 }
 
 main {
@@ -247,7 +248,7 @@ main {
     .wrapper.wrapper-header {
         width: 100%;
     }
-    
+
     .wrapper {
         width: 80%;
     }
@@ -308,4 +309,5 @@ main {
     background: none;
     color: white;
     border: 1.5px solid white;
+    cursor: pointer;
 }
